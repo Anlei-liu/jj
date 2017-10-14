@@ -1,11 +1,12 @@
 .Atitle{
-  width: 137px;
   height: 54px;
   margin-top: 16px;
   padding-left: 7px;
   margin-bottom: 13px;
   background: url("../img/sj.gif") no-repeat top right;
   line-height: 1em;
+  display: inline-block;
+  padding-right: 17px;
 }
 .Atitle span{
   display: block;
@@ -52,6 +53,7 @@
 
 
 .sli{
+  display: none;
   width: 100px;
   height: 425px;
   position: fixed;

@@ -128,13 +128,14 @@ body {
             color: #fff; }
 
 .Atitle {
-  width: 137px;
   height: 54px;
   margin-top: 16px;
   padding-left: 7px;
   margin-bottom: 13px;
   background: url("../img/sj.gif") no-repeat top right;
-  line-height: 1em; }
+  line-height: 1em;
+  display: inline-block;
+  padding-right: 17px; }
 
 .Atitle span {
   display: block;
@@ -178,6 +179,7 @@ body {
   line-height: 1.5em; }
 
 .sli {
+  display: none;
   width: 100px;
   height: 425px;
   position: fixed;
@@ -218,13 +220,14 @@ body {
     overflow: hidden;
     color: #91BA3F; }
     .top-logo-title h6 {
-      font-family: "鍗庢枃琛屾シ";
+      font-family: "STXingKai";
       font-size: 22px; }
     .top-logo-title p {
       white-space: nowrap;
       font-family: "palscri";
       font-size: 30px; }
   .top-language {
+    display: none;
     width: 60px;
     overflow: hidden;
     display: flex;
@@ -255,7 +258,7 @@ body {
     .top-phone-number {
       color: #91BA3F;
       white-space: nowrap;
-      font-size: 22px; }
+      font-size: 26px; }
 
 /*banner*/
 .banner {
@@ -268,8 +271,10 @@ body {
   height: inherit; }
 
 .banner img {
-  width: inherit;
-  height: inherit; }
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%); }
 
 .swiper-slide {
   position: relative; }
@@ -317,7 +322,8 @@ body {
   display: block;
   text-align: right;
   font-size: 36px;
-  color: #fff; }
+  color: #fff;
+  font-family: palscri; }
 
 .sle {
   color: #f00; }
@@ -426,8 +432,8 @@ body {
   font-size: 32px; }
 
 .bottom {
-  line-height: 86px;
-  height: 86px;
+  line-height: 43px;
+  height: 43px;
   text-align: center;
   font-size: 18px; }
 
