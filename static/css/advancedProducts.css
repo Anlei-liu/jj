@@ -41,7 +41,7 @@
     /*width: 280px;*/
     /*height: 340px;*/
 /*}*/
-.productList li img{
+.productList li .img{
     width: 280px;
     height: 340px;
 }

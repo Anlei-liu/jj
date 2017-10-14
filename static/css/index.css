@@ -97,98 +97,70 @@
     height: 122px;
     float: right;
 }
-.about_l img{
-    float: right;
-    transform: translateY(-100px);
+.about {
+    background: #fff;
+    padding: 30px 0;
 }
-.about_l img:nth-child(2){
-    width: 428px;
-    height: 270px;
+.about article {
+    width: 540px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5em;
 }
-.about_l img:nth-child(3){
-    width: 428px;
-    height: 150px;
-    margin-top: 20px;
-}
-/*about as center*/
-.about_c{
-    float: left;
-    width: 290px;
-    margin-left: 84px;
-    position: relative;
-    margin-top: 50px;
-}
-.about_c img:nth-child(1){
-    position: absolute;
-    left: -265px;
-    width: 642px;
-    height: 286px;
-    padding: 5px;
-    border-radius: 5px;
-    outline: solid 5px #DDDCD8;
-    outline-offset: -10px;
-    -moz-border-image:url(../img/bodyBg.gif) 5 5 stretch;	/* Old Firefox */
-    -webkit-border-image:url(../img/bodyBg.gif) 5 5 stretch;	/* Safari and Chrome */
-    -o-border-image:url(../img/bodyBg.gif) 5 5 stretch;	/* Opera */
-    border-image:url(../img/bodyBg.gif) 5 5 stretch;
-}
-.about_c img:nth-child(2){
-    width: 100%;
-    height: 486px;
-    vertical-align: bottom;
-    margin-top: 302px;
-}
-/*about as right*/
-/*更改*/
-.about_r{
-    width: 315px;
-    float: left;
-    margin-left: 13px;
-}
-.about_r img:nth-child(1){
-    width: 100%;
-    height: 446px;
-}
-.about_r img:nth-child(2){
-    width: 100%;
-    height: 126px;
-    margin-top: 10px;
+.about .img {
+    width: 540px;
+    height: 240px;
+    margin: 0 auto;
+    background-position: center center;
+    background-size: cover;
 }
 .dynamic{
-    padding: 20px 14px 0;
-    text-align: center;
+    margin-top: 20px;
+    padding: 10px 40px;
     box-sizing: border-box;
-    border:1px solid #ccc;
-    margin-top: -1px;
-    border-top: 0;
+    background-color: #fff;
 }
 .dynamic h3{
     font-size: 20px;
+    text-align: center;
 }
 .dynamic p{
 	font-size:28px;
     font-family: palscri;
     line-height: 1em;
+    text-align: center;
 }
-.dynamic li a{
+.dynamic ul li {
+    width: 330px;
+    display: inline-block;
+    margin: 0 20px;
+}
+.dynamic ul li a {
+    width: 100%;
+    color: #333;
+}
+.dynamic ul li a .img {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
+.dynamic ul li a h6 {
+    font-size: 18px;
+    line-height: 2em;
+}
+.dynamic ul li a span {
     display: block;
-    line-height: 1.5em;
-    text-align: left;
-    padding: 8px 0;
-    border-bottom: solid 1px #DBD9D5;
+    font-size: 14px;
     color: #818181;
 }
-.dynamic li a:hover{
-    color: #91B93F;
+.dynamic ul li a article {
+    line-height: 1.5em;
 }
-.dynamic li span{
-    float: right;
-}
-
 /*人气产品*/
 .product{
     position: relative;
-    margin-top: -100px;
+    padding-bottom: 30px;
 }
 .product .bg{
     position: absolute;
@@ -206,36 +178,7 @@
     position: relative;
     overflow: hidden;
 }
-.pro_l:hover .lay{
-    transform: translateY(0);
-}
-.pro_l .lay{
-    width: 294px;
-    height: 207px;
-    background-color: rgba(0,0,0,.4);
-    position: absolute;
-    bottom: 42px;
-    padding: 0 19px;
-    box-sizing: border-box;
-    transition: transform 1s;
-    transform: translateY(209px);
-}
-.pro_l .lay h3{
-    font-size: 14px;
-    color: #fff;
-    line-height: 4em;
-}
-.pro_l .lay p{
-    color: #fff;
-    font-size: 14px;
-    text-align: left;
-    line-height: 1.5em;
-}
-.pro_l .lay a{
-    color: #91B93F;
-    float: right;
-    line-height: 2em;
-}
+
 .pro_l p{
     font-size: 20px;
     color: #91B93F;
@@ -251,7 +194,39 @@
     background-size: cover;
     background-position: center center;
     overflow: hidden;
+    position: relative;
 }
+
+.imgView:hover .lay{
+    transform: translateY(0);
+}
+.imgView .lay{
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+    position: absolute;
+    bottom: 0;
+    padding: 0 19px;
+    box-sizing: border-box;
+    transition: transform 1s;
+    transform: translateY(209px);
+}
+.imgView .lay h3{
+    font-size: 14px;
+    color: #fff;
+    line-height: 4em;
+}
+.imgView .lay p{
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.5em;
+}
+.imgView .lay a{
+    color: #91B93F;
+    float: right;
+    line-height: 2em;
+}
+
 .pro_r .mor{
     width: 590px;
     margin: 60px 0 0 95px;
@@ -334,7 +309,7 @@
     display: flex;
     justify-content: flex-start;
 }
-.work_l_t img{
+.work_l_t .img{
     width: 472px;
     height: inherit;
     flex-shrink: 0;
@@ -345,7 +320,7 @@
     display: flex;
     justify-content: flex-start;
 }
-.work_l_b img{
+.work_l_b .img{
     width: 230px;
     height: inherit;
     flex-shrink: 0;

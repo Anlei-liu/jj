@@ -107,7 +107,7 @@
     overflow: hidden;
     margin-bottom: 20px;
 }
-.production li img{
+.production li .img{
     width: inherit;
     height: inherit;
 }

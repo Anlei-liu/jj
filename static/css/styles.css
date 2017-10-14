@@ -205,6 +205,11 @@ body {
   height: 35px;
   margin-top: 18px; }
 
+.img {
+  display: inline-block;
+  background-size: cover;
+  background-position: center center; }
+
 .top {
   position: relative;
   padding: 12px 0;
