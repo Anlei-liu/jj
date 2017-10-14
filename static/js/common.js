@@ -1,6 +1,7 @@
 var mySwiper = new Swiper('.swiper-container', {
     //autoplay: 5000,//可选选项，自动滑动
     loop : true,
+    autoplay: 5000,
     autoplayDisableOnInteraction:false,
     prevButton:'.swiper-button-prev',
     nextButton:'.swiper-button-next',

@@ -15,7 +15,7 @@
       overflow: hidden;
       color: #91BA3F;
       h6 {
-        font-family: "华文行楷";
+        font-family: "STXingKai";
         font-size: 22px;
       }
       p {
@@ -26,6 +26,7 @@
     }
   }
   &-language {
+    display: none;
     width: 60px;
     overflow: hidden;
     display: flex;
@@ -60,7 +61,7 @@
     &-number {
       color: #91BA3F;
       white-space: nowrap;
-      font-size: 22px;
+      font-size: 26px;
     }
   }
 }
