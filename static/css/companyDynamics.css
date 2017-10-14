@@ -1,0 +1,63 @@
+.dynamic{
+    padding-bottom: 20px;
+}
+.dynamic_l{
+    background-color: #F8F7F6;
+    padding:0 37px 20px 23px;
+}
+.dynamicList{
+    width: 317px;
+    margin-top: 35px;
+}
+.dynamicList li{
+    margin-bottom: 20px;
+}
+.dynamicList li a{
+    color: #555555;
+}
+.dynamicList li a:hover{
+    color: #91B93F;
+}
+.dynamicList li a:hover span{
+    color: #91B93F;
+}
+.dynamicList li span{
+    color: #A9A9A9;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+.dynamicList li p{
+    line-height: 1.5em;
+    padding-left: 17px;
+}
+.dynamic_r{
+    overflow: hidden;
+    padding: 20px;
+}
+.page{
+    width: 284px;
+    height: 30px;
+    padding: 4px 0;
+    margin: 0 auto;
+}
+.page a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    color: #000;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+.page a.active{
+    background-color: #81A536;
+    color: #fff;
+}
+.icon{
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    background: url("../img/a1.gif") no-repeat;
+    vertical-align: middle;
+    margin-right: 3px;
+}

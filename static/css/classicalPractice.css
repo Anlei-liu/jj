@@ -1,0 +1,28 @@
+.details{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.tit{
+    width: 620px;
+    height: 2px;
+    margin: 50px auto;
+    background-color: #fff;
+    position: relative;
+}
+.tit span{
+    font-size: 21px;
+    display: block;
+    width: 220px;
+    height: 60px;
+    position: absolute;
+    background-color: #fff;
+    text-align: center;
+    line-height: 60px;
+    margin-top: -29px;
+    left: 50%;
+    margin-left: -110px;
+}
+article{
+    font-size: 18px;
+    line-height: 1.2em;
+}

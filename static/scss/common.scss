@@ -1,0 +1,80 @@
+.Atitle{
+  width: 137px;
+  height: 54px;
+  margin-top: 16px;
+  padding-left: 7px;
+  margin-bottom: 13px;
+  background: url("../img/sj.gif") no-repeat top right;
+  line-height: 1em;
+}
+.Atitle span{
+  display: block;
+  font-size: 22px;
+  color: #90B93F;
+  margin-top: 10px;
+}
+.title{
+  text-align: center;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+.title h3{
+  font-size: 24px;
+  line-height: 1.5em;
+}
+.title p{
+  font-size: 38px;
+  color: #91B93F;
+  font-family: palscri;
+}
+
+/*更改   阴影效果  */
+.box-shadow{  
+  -webkit-box-shadow:0 3px 10px rgba(110,110,110, .8);  
+  -moz-box-shadow:0 3px 10px rgba(110,110,110, .8);  
+  box-shadow:0 3px 10px rgba(110,110,110, .8);  
+} 
+/*声明*/
+.statement{
+  text-align: center;
+  margin-top: 30px;
+  color: #818181;
+}
+.statement h4{
+  font-size: 20px;
+}
+/*更改  */
+.statement p{
+  font-size: 30px;
+  font-family: "palscri";
+  line-height: 1.5em;
+}
+
+
+.sli{
+  width: 100px;
+  height: 425px;
+  position: fixed;
+  z-index: 1024000;
+  right: 0;
+  bottom: 0;
+  background-color: #C7C7C7;
+  padding-top: 87px;
+  box-sizing: border-box;
+}
+.sli h2{
+  font-size: 16px;
+  line-height: 2em;
+  color: #555555;
+  text-indent: .8em;
+}
+.sli img{
+  width: 100px;
+  height: 100px;
+}
+.sli a img{
+  width: 100px;
+  height: 35px;
+  margin-top: 18px;
+}
+

@@ -1,0 +1,46 @@
+/*footer*/
+.footer{
+  background: url("../img/footerBG.gif") repeat;
+  padding-top: 35px;
+}
+.footer .map{
+  line-height: 36px;
+  border-bottom: solid 1px #91B93F;
+}
+.map a{
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 120px;
+}
+.con{
+  overflow: hidden;
+  margin-top: 10px;
+}
+.footer_l p{
+  line-height: 1.5em;
+  color: #fff;
+}
+
+.footer_r{
+  color: #fff;
+  margin-right: 123px;
+  padding-bottom: 15px;
+}
+.footer_r img{
+  float: left;
+  margin-right: 5px;
+  border-radius: 100%;
+}
+.ff{
+  overflow: hidden;
+  padding: 10px;
+}
+.ff p{
+  font-size: 32px;
+}
+.bottom{
+  line-height: 86px;
+  height: 86px;
+  text-align: center;
+  font-size: 18px;
+}

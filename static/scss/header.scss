@@ -1,0 +1,66 @@
+.top {
+  position: relative;
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  &-logo {
+    &-icon {
+      width: 45px;
+      height: 45px;
+      margin-right:10px;
+      float: left;
+    }
+    &-title {
+      overflow: hidden;
+      color: #91BA3F;
+      h6 {
+        font-family: "华文行楷";
+        font-size: 22px;
+      }
+      p {
+        white-space: nowrap;
+        font-family: "palscri";
+        font-size: 30px;
+      }
+    }
+  }
+  &-language {
+    width: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    span {
+      width: 50%;
+      height: 30px;
+      background-color: #C4C4C4;
+      text-align: center;
+      line-height: 30px;
+      color: #fff;
+      font-size: 14px;
+      &.active {
+        background: #9FC15F;
+      }
+    }
+  }
+  &-phone {
+    flex-grow: 1;
+    height: 52px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    &-icon {
+      margin-right: 10px;
+      width: 26px;
+      height: 26px;
+    }
+    &-number {
+      color: #91BA3F;
+      white-space: nowrap;
+      font-size: 22px;
+    }
+  }
+}
