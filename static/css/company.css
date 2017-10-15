@@ -60,6 +60,7 @@ hr{
 }
 .pages{
     float: right;
+    display: none;
 }
 .pages a{
     display: inline-block;

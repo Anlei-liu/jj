@@ -34,13 +34,9 @@
 }
 .productList{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
-/*.productList li{*/
-    /*width: 280px;*/
-    /*height: 340px;*/
-/*}*/
 .productList li .img{
     width: 280px;
     height: 340px;
@@ -53,6 +49,7 @@
 .productList li{
     display: block;
     position: relative;
+    margin: 0 9px;
 }
 .productList li:hover .lat{
     display: block;

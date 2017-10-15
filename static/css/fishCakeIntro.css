@@ -102,7 +102,7 @@
 }
 .production ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 .production li{
@@ -110,6 +110,7 @@
     height: 435px;
     position: relative;
     overflow: hidden;
+    margin: 0 12px;
     margin-bottom: 20px;
 }
 .production li .img{

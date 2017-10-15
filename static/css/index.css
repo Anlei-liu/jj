@@ -72,6 +72,7 @@
     padding: 10px 40px;
     box-sizing: border-box;
     background-color: #fff;
+    display: none;
 }
 .dynamic h3{
     font-size: 20px;
@@ -252,6 +253,7 @@
 }
 .workshop_l article{
     padding: 20px;
+    line-height: 1.5em;
 }
 .workshop_l h4{
     line-height: 3em;
@@ -266,8 +268,22 @@
     width: 472px;
     height: inherit;
     flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
 }
-
+.work_l_t .img video,.work_l_b .img video {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.work_l_t .img a, .work_l_b .img a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
 .work_l_b {
     height: 243px;
     display: flex;
@@ -277,6 +293,8 @@
     width: 230px;
     height: inherit;
     flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
 }
 
 
