@@ -1,7 +1,7 @@
 .conten{
     width: 100%;
     height: 1250px;
-    background: url("../img/lxbg.gif") no-repeat;
+    background: url("../img/bg/lxbg.gif") no-repeat;
     background-size: 100% 100%;
 }
 .statement{
@@ -41,14 +41,14 @@ h1{
     margin-right: 30px;
 }
 .i1{
-    background: url("../img/i1.gif") no-repeat;
+    background: url("../img/icon/i1.png") no-repeat;
 }
 .i2{
-    background: url("../img/i2.gif") no-repeat;
+    background: url("../img/icon/i2.png") no-repeat;
 }
 .i3{
-    background: url("../img/i3.gif") no-repeat;
+    background: url("../img/icon/i3.png") no-repeat;
 }
 .i4{
-    background: url("../img/i4.gif") no-repeat;
+    background: url("../img/icon/i4.png") no-repeat;
 }

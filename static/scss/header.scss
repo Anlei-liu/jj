@@ -26,13 +26,13 @@
     }
   }
   &-language {
-    display: none;
     width: 60px;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
+    display: none;
     span {
       width: 50%;
       height: 30px;
