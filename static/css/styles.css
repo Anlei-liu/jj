@@ -205,6 +205,17 @@ body {
   height: 35px;
   margin-top: 18px; }
 
+.img {
+  display: inline-block;
+  background-size: cover;
+  background-position: center center; }
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  background-image: url("../img/icon/arrowLeft.png"); }
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  background-image: url("../img/icon/arrowRight.png"); }
+
 .top {
   position: relative;
   padding: 12px 0;
@@ -227,13 +238,13 @@ body {
       font-family: "palscri";
       font-size: 30px; }
   .top-language {
-    display: none;
     width: 60px;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 8px; }
+    border-radius: 8px;
+    display: none; }
     .top-language span {
       width: 50%;
       height: 30px;
@@ -426,7 +437,7 @@ body {
 
 .ff {
   overflow: hidden;
-  padding: 10px; }
+  padding: 2px; }
 
 .ff p {
   font-size: 32px; }

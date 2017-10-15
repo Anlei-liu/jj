@@ -1,6 +1,9 @@
 .technology{
     background-color: #91B937;
 }
+.Atitle {
+    background-image: url('../img/icon/arrowTop.png');
+}
 .Atitle span{
     color: #fff;
 }
@@ -84,7 +87,9 @@
     position: absolute;
     right: 0;
     top: 0;
-    background-color: #91B93F;
+    background-image: url("../img/bg/fishBg.png");
+    background-size: cover;
+    background-position: center center;
     line-height: 137px;
     text-align: center;
 }
@@ -107,7 +112,7 @@
     overflow: hidden;
     margin-bottom: 20px;
 }
-.production li img{
+.production li .img{
     width: inherit;
     height: inherit;
 }
@@ -130,7 +135,7 @@
 .la{
     width: 75px;
     height: 85px;
-    background: url("../img/aac.gif") no-repeat;
+    background: url("../img/bg/stepBg.png") no-repeat;
     position: absolute;
     background-size: 100% 100%;
     left: 0;

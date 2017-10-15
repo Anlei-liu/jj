@@ -80,3 +80,15 @@
   margin-top: 18px;
 }
 
+.img {
+  display: inline-block;
+  background-size: cover;
+  background-position: center center;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  background-image: url("../img/icon/arrowLeft.png");
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  background-image: url("../img/icon/arrowRight.png");
+
+}

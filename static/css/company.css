@@ -9,7 +9,7 @@
     line-height: 1.5em;
     margin-bottom: 10px;
 }
-.introduce_r img{
+.introduce_r .img{
     width: 560px;
     height: 400px;
 }
@@ -50,7 +50,7 @@
 .album{
     margin: 86px auto;
 }
-.albumList img{
+.albumList .img{
     width: 295px;
     height: 195px;
     margin-bottom: 6px;

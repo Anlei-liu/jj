@@ -25,5 +25,7 @@ var layer = {
 };
 
 $('.lat img').click(function () {
-    layer.show($(this).parents("li").children("img").attr("src"));
+    var url = $(this).parents("li").children(".img").data('img')
+    console.log(url)
+    layer.show(url);
 })
