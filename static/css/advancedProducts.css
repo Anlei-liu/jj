@@ -98,8 +98,8 @@
     margin-top: 100px;
 }
 .layer img{
-    max-width: 900px;
-    max-height: 800px;
+    max-width: 600px;
+    max-height: 400px;
 }
 .close{
     display: inline-block;
